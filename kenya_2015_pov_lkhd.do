@@ -4,7 +4,7 @@
 ** if you prefer to use the other scorecards that have been availed by the PPI
 
 
-** Convert ppi scores to poverty likelihood based national poverty rate scorecard (see notes above)
+** Convert ppi scores to poverty likelihood based on national poverty rate scorecard (see notes above)
 gen pov_lkhd = 0.8797 if ppi == 0
 replace pov_lkhd = 0.8736 if ppi ==1
 replace pov_lkhd = 0.8672 if ppi ==2
